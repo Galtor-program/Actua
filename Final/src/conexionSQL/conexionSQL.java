@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 public class conexionSQL {
     Connection conectar = null;
-        String dbServer = "204.2.63.32"; 
+        String dbServer = ""; 
         int dbPort = 10242; 
         String dbName = "maingco";
         String userName = "admin";
