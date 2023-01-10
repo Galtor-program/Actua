@@ -17,7 +17,7 @@ public class conexionSQL {
         int dbPort = 10242; 
         String dbName = "maingco";
         String userName = "admin";
-        String password = "9FMN97Zx";
+        String password = "";
         String url = String.format("jdbc:mysql://%s:%d?user=%s&password=%s" , 
                                     dbServer, dbPort, userName, password);
     
